@@ -4,10 +4,9 @@ body {
 nav {
     background-color: steelblue;
     padding: 10px;
-    display: grid;
   }
 nav :hover {
-    background-color: white;
+    background-color: steelblue;
     color: black;
     cursor: pointer;
   }
@@ -17,30 +16,34 @@ margin: 40px;
 text-decoration: none;
 padding: 10px;
 }
-div {
-  display: grid;
-  position: relative;
-}
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+  }
 ul{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-.dropdown {
-  width: 25%;
+li{
+  justify-content: center;
+  margin: auto 135px;
+  width: 140px;
 }
 .dropdown-content {
+  background-color: burlywood;
   display: none;
   position: absolute;
-  width: 25%;
   overflow: auto;
   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
 }
 .dropdown:hover .dropdown-content {
   display: block;
+  background-color: burlywood;
 }
 .dropdown-content a {
   display: block;
