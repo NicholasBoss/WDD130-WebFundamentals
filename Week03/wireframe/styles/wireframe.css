@@ -10,3 +10,15 @@ header {
 body {
     background-color: lightblue;
 }
+
+#content {
+    max-width: 1600px;
+}
+nav a {
+ text-align: center;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
